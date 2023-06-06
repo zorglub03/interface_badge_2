@@ -11,18 +11,7 @@
 				<ColumnDefinition/>
 				<ColumnDefinition Width="Auto"/>
 			</Grid.ColumnDefinitions>
-			<StackPanel Orientation="Horizontal">
-				<Button VerticalAlignment="Top" Height="50" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="15,15,5,15" Background="DarkGray" Foreground="Black">Add</Button>
-				<Button VerticalAlignment="Top" Height="50" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="10,15,5,15" Background="DarkGray" Foreground="Black">Modify</Button>
-			</StackPanel>
-			<StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-				<Menu VerticalAlignment="Top" Height="50" Width="60" Background="DarkGray" Margin="15" CornerRadius="5">
-					<MenuItem Header="_Menu" Foreground="Black" HorizontalAlignment="Center">
-						<MenuItem Header="Home page"/>
-						<MenuItem Header="Manager" IsEnabled="False"/>
-					</MenuItem>
-				</Menu>
-			</StackPanel>
+			
 		</Grid>
 		<DataGrid Name="MyDataGrid" ItemsSource="{Binding People}">
 			<DataGrid.Columns>

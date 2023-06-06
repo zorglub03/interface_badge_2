@@ -8,5 +8,6 @@ namespace interface_badge_2.Views
         {
             InitializeComponent();
         }
+
     }
 }

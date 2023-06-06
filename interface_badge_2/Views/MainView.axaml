@@ -6,12 +6,6 @@
         x:Class="interface_badge_2.Views.MainView"
 		Background="LightGray">
 	<StackPanel Orientation="Vertical">
-		<Menu VerticalAlignment="Top"  Height="50" Width="60" Background="DarkGray" Margin="720,15,15,15" CornerRadius="5">
-			<MenuItem Header="_Menu" Foreground="Black" HorizontalAlignment="Center">
-				<MenuItem Header="Home page" IsEnabled="False"/>
-				<MenuItem Header="Manager"/>
-			</MenuItem>
-		</Menu>
 		<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" FontSize="25" Name="acceuil" Margin="0,140"/>
 	</StackPanel>
 </UserControl>
